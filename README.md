@@ -10,3 +10,8 @@
 import pydemo
 pydemo.init('testdemo')
 ```
+## [Python Package Index](https://pypi.org/)
+### whl
+python setup.py sdist bdist_whell
+### pypi
+twine upload dist/*
